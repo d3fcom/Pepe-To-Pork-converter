@@ -22,17 +22,17 @@ Follow these steps to get the application up and running on your local machine.
 Install the Required Packages:
 Make sure you have Python 3.x installed. Then, install the necessary packages using pip:
 
-sh
-Copy code
-pip install -r requirements.txt
-Run the Application:
 
-sh
-Copy code
-python pepe_to_pork.py
-Usage
-Upload an Image:
-Click the "Upload Image" button or drag and drop your image into the specified area.
+   ```
+   1 - ) pip install -r requirements.txt
+   2 - )Run the Application:
+   3 - )python pepe_to_pork.py
+
+:Usage
+   Upload an Image:
+   Click the "Upload Image" button or drag and drop your image into the specified area.
+   ```
+
 
 Convert the Image:
 The application will automatically convert green parts of the image to pink.
