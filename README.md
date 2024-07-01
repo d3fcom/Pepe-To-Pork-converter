@@ -24,9 +24,9 @@ Make sure you have Python 3.x installed. Then, install the necessary packages us
 
 
    ```
-   1 - ) pip install -r requirements.txt
-   2 - )Run the Application:
-   3 - )python pepe_to_pork.py
+   1 - )   pip install -r requirements.txt
+Run the Application:
+   3 - )   python pepe_to_pork.py
 
 :Usage
    Upload an Image:
