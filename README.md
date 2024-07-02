@@ -14,6 +14,11 @@ Welcome to the **Pepe to Pork Meme Converter**! This Python application allows y
 Follow these steps to get the application up and running on your local machine.
 
 1. **Clone the Repository:**
+
+   YOU NEED TO HAVE PYTHON INSTALLED ON YOUR PC 
+
+https://www.python.org/downloads/
+
    ```sh
    git clone https://github.com/yourusername/pork-meme-converter.git
    cd pork-meme-converter
