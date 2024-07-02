@@ -8,7 +8,7 @@ Welcome to the **Pepe to Pork Meme Converter**! This Python application allows y
 https://www.youtube.com/watch?v=_5tFXJQIzi4
 
 
-[<img src="https://imgur.com/a/TXgeS51" width="50%">](https://www.youtube.com/watch?v=_5tFXJQIzi4 "Now in Android: 55")
+[<img src="[![Screenshot 2024-07-02 085510](https://github.com/d3fcom/Pepe-To-Pork-converter/assets/23270466/8e7a9545-3929-44ad-9cfa-a5b8e1b90576)]" width="50%">](https://www.youtube.com/watch?v=_5tFXJQIzi4 "Now in Android: 55")
 
 ## Features
 - Upload images via a file dialog or drag-and-drop
