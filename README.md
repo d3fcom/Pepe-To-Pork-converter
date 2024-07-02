@@ -22,11 +22,9 @@ https://www.python.org/downloads/
    ```sh
    git clone https://github.com/yourusername/pork-meme-converter.git
    cd pork-meme-converter
-
+   ```
 
 Install the Required Packages:
-Make sure you have Python 3.x installed. Then, install the necessary packages using pip:
-
 
 ```
 pip install -r requirements.txt
