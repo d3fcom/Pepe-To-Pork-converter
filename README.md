@@ -3,8 +3,7 @@
 Welcome to the **Pepe to Pork Meme Converter**! This Python application allows you to transform your favorite Pepe the Frog memes into Pork memes with a single click. The frog's color changes to a lovely pink, and you can save the converted image for later use.
 
 [![ Video Description - Pepe To Pork Converter / by Weis ](https://imgur.com/a/TXgeS51)](https://youtu.be/b3_axOD4EzA)
-[![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://www.youtube.com/watch?v=_5tFXJQIzi4)
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/TXgeS51" data-context="false" ><a href="//imgur.com/a/TXgeS51"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[![Video Description - Pepe To Pork Converter / by Weis](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://www.youtube.com/watch?v=_5tFXJQIzi4)
 
 ## Features
 - Upload images via a file dialog or drag-and-drop
