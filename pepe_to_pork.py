@@ -268,13 +268,25 @@ def open_video_window():
         return output_path
 
     def change_color_video(frame):
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2BGRA)
-        lower_green = np.array([0, 100, 0, 255])
-        upper_green = np.array([200, 255, 200, 255])
-        mask = cv2.inRange(frame, lower_green, upper_green)
-        frame[mask != 0] = [255, 105, 180, 255]
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
-        return frame
+        # Convert the frame to RGB
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        data = np.array(frame)
+        
+        # Define the green color range (adjusted values)
+        lower_green = np.array([0, 100, 0])
+        upper_green = np.array([200, 255, 200])
+        
+        # Create a mask to identify green pixels
+        mask = np.all(data >= lower_green, axis=-1) & np.all(data <= upper_green, axis=-1)
+        
+        # Replace green pixels with pink
+        data[mask] = [255, 105, 180]
+        
+        # Convert back to frame
+        new_frame = Image.fromarray(data)
+        new_frame = np.array(new_frame)
+        
+        return cv2.cvtColor(new_frame, cv2.COLOR_RGB2BGR)
 
     video_upload_button = tk.Button(video_window, text="Upload Video", command=upload_video, bg='green', fg='white', font=("Helvetica", 14, "bold"), bd=0, highlightthickness=0, activebackground="darkgreen", activeforeground="white", width=20, height=2)
     video_upload_button.pack(pady=10)
