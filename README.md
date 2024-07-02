@@ -4,6 +4,7 @@ Welcome to the **Pepe to Pork Meme Converter**! This Python application allows y
 
 [![ Video Description - Pepe To Pork Converter / by Weis ](https://imgur.com/a/TXgeS51)](https://youtu.be/b3_axOD4EzA)
 [![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://www.youtube.com/watch?v=_5tFXJQIzi4)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/TXgeS51" data-context="false" ><a href="//imgur.com/a/TXgeS51"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Features
 - Upload images via a file dialog or drag-and-drop
